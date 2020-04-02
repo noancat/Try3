@@ -15,7 +15,7 @@ public class SaveandLoad : MonoBehaviour
     public List<GameObject> PlayerSaves = new List<GameObject>();
     public Timer TimeToDeth;
     public Doorscript InRoom;
-    public Coin coinData;
+    public AccessCard coinData;
     string json;
     public void Start()
     {
@@ -31,8 +31,8 @@ public class SaveandLoad : MonoBehaviour
         save.SavePlayer(PlayerSaves);
         save.HP = Hpbar.fill;
         save.gameTimer = TimeToDeth.GameTimer;
-        save.getCoin = Coin.coinb;
-        save.eventSave = Move.patrolAlarm;
+        save.getCoin = AccessCard.coinPikced;
+        save.eventSave = PlayerController.patrolAlarm;
         /*
              json = JsonUtility.ToJson(save);
         
@@ -63,20 +63,20 @@ public class SaveandLoad : MonoBehaviour
         int i = 0;
         foreach (var enemy in save.EnemiesDate)
         {
-            EnemySaves[i].GetComponent<Patrol>().LoadDate(enemy);
+            EnemySaves[i].GetComponent<PatrolMan>().LoadDate(enemy);
 
             i++;
         }
         int j = 0;
         foreach (var player in save.PlayerDate)
         {
-            PlayerSaves[j].GetComponent<Move>().LoadDate(player);
+            PlayerSaves[j].GetComponent<PlayerController>().LoadDate(player);
             j++;
         }
         Hpbar.fill = save.HP;
         TimeToDeth.GameTimer = save.gameTimer;
-        Coin.coinb = save.getCoin;
-        Move.patrolAlarm = save.eventSave;
+        AccessCard.coinPikced = save.getCoin;
+        PlayerController.patrolAlarm = save.eventSave;
     }
 }
 
@@ -115,8 +115,10 @@ public class Save
     {
         foreach (var go in player)
         {
+            PlayerController pt = go.GetComponent<PlayerController>();
 
             Vec2 pos = new Vec2(go.transform.position.x, go.transform.position.y);
+            // bool alive = pt.isDead();
             bool alive = new bool();
 
             PlayerDate.Add(new SaveDate(pos, alive));
@@ -126,7 +128,7 @@ public class Save
     {
         foreach (var go in enemies)
         {
-            Patrol pt = go.GetComponent<Patrol>();
+            PatrolMan pt = go.GetComponent<PatrolMan>();
 
             Vec2 pos = new Vec2(go.transform.position.x, go.transform.position.y);
             bool alive = pt.isDead;

@@ -21,7 +21,7 @@ public class AnimScript : MonoBehaviour
         {
             anim.SetInteger("new",5);
         }else
-        if (!(Move.isGrounded))
+        if (!(PlayerController.isGrounded))
         {
             anim.SetInteger("new", 3);
         }
@@ -29,7 +29,7 @@ public class AnimScript : MonoBehaviour
             Input.GetKey(KeyCode.D) || 
             Input.GetKey(KeyCode.LeftArrow) ||
             Input.GetKey(KeyCode.RightArrow) ||
-            Move.h > 0 || Move.h < 0)
+            PlayerController.h > 0 || PlayerController.h < 0)
         {
             anim.SetInteger("new", 1);
         }

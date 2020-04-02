@@ -30,7 +30,7 @@ public class GameManager:MonoBehaviour
         cardPicked();
     }
     ///EventSystem_end
-    public Move player;
+    public PlayerController player;
 
     public void Exit()
     {

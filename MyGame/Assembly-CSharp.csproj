@@ -55,56 +55,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MyScript\AnimScript.cs" />
-     <Compile Include="Assets\MyScript\BoyNextDoor.cs" />
-     <Compile Include="Assets\MyScript\BundleCreate.cs" />
-     <Compile Include="Assets\MyScript\Coin.cs" />
-     <Compile Include="Assets\MyScript\Doorscript.cs" />
-     <Compile Include="Assets\MyScript\GameManager.cs" />
-     <Compile Include="Assets\MyScript\Hpbar.cs" />
-     <Compile Include="Assets\MyScript\letmego.cs" />
-     <Compile Include="Assets\MyScript\LoadBundle.cs" />
-     <Compile Include="Assets\MyScript\Menuscript.cs" />
-     <Compile Include="Assets\MyScript\Move.cs" />
-     <Compile Include="Assets\MyScript\Patrol.cs" />
-     <Compile Include="Assets\MyScript\Pausescript.cs" />
-     <Compile Include="Assets\MyScript\PolimorfScript.cs" />
-     <Compile Include="Assets\MyScript\PrefabsLoader.cs" />
-     <Compile Include="Assets\MyScript\SaveandLoad.cs" />
-     <Compile Include="Assets\MyScript\StreamingAssetsScript.cs" />
-     <Compile Include="Assets\MyScript\Timer.cs" />
+     <Compile Include="Assets\myScript\AccessCard.cs" />
+     <Compile Include="Assets\myScript\AnimScript.cs" />
+     <Compile Include="Assets\myScript\BoyNextDoor.cs" />
+     <Compile Include="Assets\myScript\BundleCreate.cs" />
+     <Compile Include="Assets\myScript\Doorscript.cs" />
+     <Compile Include="Assets\myScript\GameManager.cs" />
+     <Compile Include="Assets\myScript\Hpbar.cs" />
+     <Compile Include="Assets\myScript\letmego.cs" />
+     <Compile Include="Assets\myScript\LoadBundle.cs" />
+     <Compile Include="Assets\myScript\Menuscript.cs" />
+     <Compile Include="Assets\myScript\PatrolMan.cs" />
+     <Compile Include="Assets\myScript\Pausescript.cs" />
+     <Compile Include="Assets\myScript\PlayerController.cs" />
+     <Compile Include="Assets\myScript\PolimorfScript.cs" />
+     <Compile Include="Assets\myScript\PrefabsLoader.cs" />
+     <Compile Include="Assets\myScript\SaveandLoad.cs" />
+     <Compile Include="Assets\myScript\StreamingAssetsScript.cs" />
+     <Compile Include="Assets\myScript\Timer.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/22227/ахуйна/Try3-master/MyGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/22227/ахуйна/Try3-master/MyGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/22227/ахуйна/Try3-master/MyGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/22227/ахуйна/Try3-master/MyGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/22227/ахуйна/Try3-master/MyGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/22227/ахуйна/Try3-master/MyGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/22227/ахуйна/Try3-master/MyGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/22227/ахуйна/Try3-master/MyGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/22227/ахуйна/Try3-master/MyGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/2019.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -5,22 +5,18 @@ using UnityEngine.UI;
 
 public class Hpbar : MonoBehaviour
 {
-  // Start is called before the first frame update
+    // Start is called before the first frame update
     public Image bar;
     public static float fill;
-    public static bool smert;
+    // public static bool smert;
     void Start()
     {
         fill = 1f;
-        smert = false;
 
     }
     void Update()
     {
         bar.fillAmount = fill;
-        if (fill <=0)
-        {
-            smert = true;
-        }
     }
+
 }

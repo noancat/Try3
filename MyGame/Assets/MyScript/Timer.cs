@@ -28,7 +28,7 @@ public class Timer : MonoBehaviour
         gameTimerText.text = timeString;
         if (GameTimer <= 0)
         {
-            Move.dead = true;
+            PlayerController.isDead = true;
         }
     }
 }

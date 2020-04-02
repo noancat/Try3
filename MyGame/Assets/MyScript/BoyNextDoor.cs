@@ -12,7 +12,7 @@ public class BoyNextDoor : PolimorfScript
     public new void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.gameObject == GameManager.GetInstance().player.gameObject && Coin.coinb)
+        if (other.gameObject == GameManager.GetInstance().player.gameObject && AccessCard.coinPikced)
         {
             doButton.SetActive(true);
             noAcces.SetActive(false);
