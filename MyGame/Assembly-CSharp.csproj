@@ -55,24 +55,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\my_Script\AnimScript.cs" />
-     <Compile Include="Assets\my_Script\BoyNextDoor.cs" />
-     <Compile Include="Assets\my_Script\BundleCreate.cs" />
-     <Compile Include="Assets\my_Script\Coin.cs" />
-     <Compile Include="Assets\my_Script\Doorscript.cs" />
-     <Compile Include="Assets\my_Script\GameManager.cs" />
-     <Compile Include="Assets\my_Script\Hpbar.cs" />
-     <Compile Include="Assets\my_Script\letmego.cs" />
-     <Compile Include="Assets\my_Script\LoadBundle.cs" />
-     <Compile Include="Assets\my_Script\Menuscript.cs" />
-     <Compile Include="Assets\my_Script\Move.cs" />
-     <Compile Include="Assets\my_Script\Patrol.cs" />
-     <Compile Include="Assets\my_Script\Pausescript.cs" />
-     <Compile Include="Assets\my_Script\PolimorfScript.cs" />
-     <Compile Include="Assets\my_Script\PrefabsLoader.cs" />
-     <Compile Include="Assets\my_Script\SaveandLoad.cs" />
-     <Compile Include="Assets\my_Script\StreamingAssetsScript.cs" />
-     <Compile Include="Assets\my_Script\Timer.cs" />
+     <Compile Include="Assets\MyScript\AnimScript.cs" />
+     <Compile Include="Assets\MyScript\BoyNextDoor.cs" />
+     <Compile Include="Assets\MyScript\BundleCreate.cs" />
+     <Compile Include="Assets\MyScript\Coin.cs" />
+     <Compile Include="Assets\MyScript\Doorscript.cs" />
+     <Compile Include="Assets\MyScript\GameManager.cs" />
+     <Compile Include="Assets\MyScript\Hpbar.cs" />
+     <Compile Include="Assets\MyScript\letmego.cs" />
+     <Compile Include="Assets\MyScript\LoadBundle.cs" />
+     <Compile Include="Assets\MyScript\Menuscript.cs" />
+     <Compile Include="Assets\MyScript\Move.cs" />
+     <Compile Include="Assets\MyScript\Patrol.cs" />
+     <Compile Include="Assets\MyScript\Pausescript.cs" />
+     <Compile Include="Assets\MyScript\PolimorfScript.cs" />
+     <Compile Include="Assets\MyScript\PrefabsLoader.cs" />
+     <Compile Include="Assets\MyScript\SaveandLoad.cs" />
+     <Compile Include="Assets\MyScript\StreamingAssetsScript.cs" />
+     <Compile Include="Assets\MyScript\Timer.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/2019.2.5f1/MyGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
