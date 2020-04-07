@@ -6,47 +6,41 @@ using UnityEngine.Animations;
 public class LetMeGo : MonoBehaviour
 {
     // Start is called before the first frame update
-    private float waitTime, startTime;
-    public bool onTrigger;
+    private float waittime, starttime;
+    public bool letme;
     public Animator letmegofrom;
     public void Start()
     {
-        startTime = 3f;
-        waitTime = startTime;
-        onTrigger = false;
+        starttime = 3f;
+        waittime = starttime;
+        letme = false;
         letmegofrom = GetComponent<Animator>();
         letmegofrom.SetInteger("comp",0);
         letmegofrom.SetBool("vir",false);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == GameManager.GetInstance().player.gameObject)
-        {
-            onTrigger = true;
-            Debug.Log("seeu");
-        }
+        letme = true;
+        Debug.Log("seeu");
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject == GameManager.GetInstance().player.gameObject)
-        {
-            onTrigger = false;
-        }
+        letme = false;
     }
     // Update is called once per frame
     void Update()
     {
-        if (onTrigger)
+        if (letme)
         {
-            if (waitTime <= 0)
+            if (waittime <= 0)
             {
                 letmegofrom.SetBool("vir", true);
-                waitTime = startTime;
+                waittime = starttime;
             }
             else
             {
-                waitTime -= Time.deltaTime;
+                waittime -= Time.deltaTime;
             }
         }
         else

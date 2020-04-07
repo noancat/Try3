@@ -68,11 +68,11 @@ public class PlayerController : MonoBehaviour
         }
         if (pointLeft)
         {
-            MoveToLeft();
+            Left();
         }
         if (pointRight)
         {
-            MoveToRight();
+            Right();
         }
         if (h < 0)
         {
@@ -122,14 +122,14 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(transform.up * jforce, ForceMode2D.Impulse);
         jump--;
     }
-    public void MoveToLeft()
+    public void Left()
     {
         pointLeft = true;
         h = -1;
         rb.velocity = new Vector2(h * speed, rb.velocity.y);
         Vector3 direction = transform.right * h;
     }
-    public void MoveToRight()
+    public void Right()
     {
         pointRight = true;
         h = 1;

@@ -14,6 +14,7 @@ public class SaveandLoad : MonoBehaviour
     public List<GameObject> EnemySaves = new List<GameObject>();
     public List<GameObject> PlayerSaves = new List<GameObject>();
     public Timer TimeToDeth;
+    public Doorscript InRoom;
     public AccessCard coinData;
     string json;
     public void Start()
@@ -21,7 +22,7 @@ public class SaveandLoad : MonoBehaviour
         file = "C:/Users/игорь/22227/save.xml";
         //TimeToDeth = GetComponent<Timer>();
     }
-    public void SaveGameDate()
+    public void Savegame()
     {
         XmlSerializer xml = new XmlSerializer((typeof(Save)));
         Save save = new Save();
@@ -47,7 +48,7 @@ public class SaveandLoad : MonoBehaviour
         }
         ///print(json);
     }
-    public void LoadGameDate()
+    public void Loadgame()
     {
 
         XmlSerializer xml = new XmlSerializer((typeof(Save)));

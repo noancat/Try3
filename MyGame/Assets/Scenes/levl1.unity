@@ -987,7 +987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30819663e39c66947ae3e146324c563b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onTrigger: 0
+  letme: 0
   letmegofrom: {fileID: 0}
 --- !u!95 &243318715
 Animator:
@@ -1397,7 +1397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30819663e39c66947ae3e146324c563b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onTrigger: 0
+  letme: 0
   letmegofrom: {fileID: 0}
 --- !u!61 &302948167
 BoxCollider2D:
@@ -5414,6 +5414,7 @@ MonoBehaviour:
   PlayerSaves:
   - {fileID: 1475428947698995225}
   TimeToDeth: {fileID: 1475428948377582214}
+  InRoom: {fileID: 1825465364}
   coinData: {fileID: 610988093}
 --- !u!1 &1093551841
 GameObject:
@@ -5840,8 +5841,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.826, y: 3.15}
-  m_SizeDelta: {x: 149.188, y: 30}
+  m_AnchoredPosition: {x: -13.44, y: 3.07}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1140436249
 MonoBehaviour:
@@ -5892,7 +5893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 0
+  - eventID: 4
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -6898,7 +6899,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1081920501}
-        m_MethodName: LoadGameDate
+        m_MethodName: Loadgame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7905,7 +7906,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1081920501}
-        m_MethodName: SaveGameDate
+        m_MethodName: Savegame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10736,7 +10737,6 @@ MonoBehaviour:
   chill: 0
   eventBool: 0
   dist: 0.2
-  damage: 0
 --- !u!114 &1154780021578244062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10773,7 +10773,6 @@ MonoBehaviour:
   chill: 0
   eventBool: 0
   dist: 0.2
-  damage: 0
 --- !u!114 &1154780021729052406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10810,7 +10809,6 @@ MonoBehaviour:
   chill: 0
   eventBool: 0
   dist: 0.2
-  damage: 0
 --- !u!224 &1285060580604648899
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11038,7 +11036,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates: []
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1475428947623130607
 GameObject:
   m_ObjectHideFlags: 0
@@ -12183,7 +12189,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1475428947698995218}
-          m_MethodName: MoveToRight
+          m_MethodName: Right
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -12717,7 +12723,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1475428947698995218}
-          m_MethodName: MoveToLeft
+          m_MethodName: Left
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -15418,7 +15424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 0
+  - eventID: 4
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -15746,7 +15752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 0
+  - eventID: 4
     callback:
       m_PersistentCalls:
         m_Calls:

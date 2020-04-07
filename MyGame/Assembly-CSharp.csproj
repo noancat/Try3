@@ -59,7 +59,7 @@
      <Compile Include="Assets\myScript\AnimScript.cs" />
      <Compile Include="Assets\myScript\BoyNextDoor.cs" />
      <Compile Include="Assets\myScript\BundleCreate.cs" />
-     <Compile Include="Assets\myScript\DoorScript.cs" />
+     <Compile Include="Assets\myScript\Doorscript.cs" />
      <Compile Include="Assets\myScript\GameManager.cs" />
      <Compile Include="Assets\myScript\Hpbar.cs" />
      <Compile Include="Assets\myScript\LetMeGo.cs" />
@@ -74,31 +74,31 @@
      <Compile Include="Assets\myScript\StreamingAssetsScript.cs" />
      <Compile Include="Assets\myScript\Timer.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/2019.2.5f1/VolterRepositor/Try3/MyGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/backup/MyGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/2019.2.5f1/VolterRepositor/Try3/MyGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/backup/MyGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/2019.2.5f1/VolterRepositor/Try3/MyGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/backup/MyGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/2019.2.5f1/VolterRepositor/Try3/MyGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/backup/MyGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>D:/2019.2.5f1/VolterRepositor/Try3/MyGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/backup/MyGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>D:/2019.2.5f1/VolterRepositor/Try3/MyGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/backup/MyGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/2019.2.5f1/VolterRepositor/Try3/MyGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/backup/MyGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/2019.2.5f1/VolterRepositor/Try3/MyGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/backup/MyGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/2019.2.5f1/VolterRepositor/Try3/MyGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/2019.2.5f1/backup/MyGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/2019.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
