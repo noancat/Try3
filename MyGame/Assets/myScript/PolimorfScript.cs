@@ -8,7 +8,7 @@ public class PolimorfScript : MonoBehaviour
     public GameObject doButton;
     public Text infoText;
     public string newInfo;
-    public virtual void Start()
+    public void Start()
     {
         doButton.SetActive(false);
     }
