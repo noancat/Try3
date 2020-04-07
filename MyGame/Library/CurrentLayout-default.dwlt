@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -184,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 406
     height: 523
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 130.59424, y: 83.44013, z: -50.844494}
     speed: 2
-    m_Value: {x: 128.12202, y: 79.766136, z: -49.737305}
+    m_Value: {x: 130.59424, y: 83.44013, z: -50.844494}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 257.01157
     speed: 2
-    m_Value: 245.94409
+    m_Value: 257.01157
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -575,19 +575,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/myScript
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/myScript
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\2019.2.5f1\VolterRepositor\Try3\MyGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c02c0000
-    m_LastClickedID: 11456
+    m_SelectedIDs: fe2e0000
+    m_LastClickedID: 12030
     m_ExpandedIDs: 00000000c02c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -643,7 +643,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000583900006a3d0000ccd6ffff747100004c3d000022c200002634ffff00000000e02e0000ba2f0000ca320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

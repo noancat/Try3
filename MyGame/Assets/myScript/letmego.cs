@@ -3,44 +3,44 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
 
-public class letmego : MonoBehaviour
+public class LetMeGo : MonoBehaviour
 {
     // Start is called before the first frame update
-    private float waittime, starttime;
-    public bool letme;
+    private float waitTime, startTime;
+    public bool onTrigger;
     public Animator letmegofrom;
     public void Start()
     {
-        starttime = 3f;
-        waittime = starttime;
-        letme = false;
+        startTime = 3f;
+        waitTime = startTime;
+        onTrigger = false;
         letmegofrom = GetComponent<Animator>();
         letmegofrom.SetInteger("comp",0);
         letmegofrom.SetBool("vir",false);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        letme = true;
+        onTrigger = true;
         Debug.Log("seeu");
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        letme = false;
+        onTrigger = false;
     }
     // Update is called once per frame
     void Update()
     {
-        if (letme)
+        if (onTrigger)
         {
-            if (waittime <= 0)
+            if (waitTime <= 0)
             {
                 letmegofrom.SetBool("vir", true);
-                waittime = starttime;
+                waitTime = startTime;
             }
             else
             {
-                waittime -= Time.deltaTime;
+                waitTime -= Time.deltaTime;
             }
         }
         else

@@ -62,7 +62,7 @@
      <Compile Include="Assets\myScript\Doorscript.cs" />
      <Compile Include="Assets\myScript\GameManager.cs" />
      <Compile Include="Assets\myScript\Hpbar.cs" />
-     <Compile Include="Assets\myScript\letmego.cs" />
+     <Compile Include="Assets\myScript\LetMeGo.cs" />
      <Compile Include="Assets\myScript\LoadBundle.cs" />
      <Compile Include="Assets\myScript\Menuscript.cs" />
      <Compile Include="Assets\myScript\PatrolMan.cs" />
