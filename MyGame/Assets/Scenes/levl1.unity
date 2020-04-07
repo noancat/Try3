@@ -6898,7 +6898,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1081920501}
-        m_MethodName: Loadgame
+        m_MethodName: LoadGameDate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7905,7 +7905,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1081920501}
-        m_MethodName: Savegame
+        m_MethodName: SaveGameDate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
