@@ -29,7 +29,8 @@ public class PatrolMan : MonoBehaviour
     public float h;
     public bool chill = false;
     public bool eventBool;
-    public float dist = 0.2f;
+    public float dist;
+    public float damage;
     Vector2 currTurn;
     Vector2 lastTurnzero;
     Vector2 lastTurnonehs;
@@ -45,17 +46,18 @@ public class PatrolMan : MonoBehaviour
         Arrayindex = 0;
         bc2d = GetComponent<BoxCollider2D>();
         anima = GetComponent<Animator>();
-
         rb = GetComponent<Rigidbody2D>();
         arrowLeftRight.SetActive(true);
         arrowMain.SetActive(true);
         currSpeed = 10f;
         dethTime = 0f;
+        dist = 0.2f;
+        damage = 0.1f;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Player" && !PlayerController.isDead)
+        if (collision.gameObject == GameManager.GetInstance().player.gameObject && !PlayerController.isDead)
         {
             isDead = true;
             PlayerController.spotted = false;
@@ -206,7 +208,7 @@ public class PatrolMan : MonoBehaviour
             if (SpottedTime <= 0)
             {
                 anima.SetInteger("guard_stat", 5);
-                Hpbar.fill -= Time.deltaTime * 0.1f;
+                Hpbar.fill -= Time.deltaTime * damage;
             }
             else
             {
