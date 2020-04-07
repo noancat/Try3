@@ -59,7 +59,7 @@
      <Compile Include="Assets\myScript\AnimScript.cs" />
      <Compile Include="Assets\myScript\BoyNextDoor.cs" />
      <Compile Include="Assets\myScript\BundleCreate.cs" />
-     <Compile Include="Assets\myScript\Doorscript.cs" />
+     <Compile Include="Assets\myScript\DoorScript.cs" />
      <Compile Include="Assets\myScript\GameManager.cs" />
      <Compile Include="Assets\myScript\Hpbar.cs" />
      <Compile Include="Assets\myScript\LetMeGo.cs" />
