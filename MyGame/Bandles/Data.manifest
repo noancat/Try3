@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1451955966
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mymain
+      Dependencies:
+        Dependency_0: bplayer
+        Dependency_1: bguard
+        Dependency_2: bend
+        Dependency_3: dcard
+    Info_1:
+      Name: menulevl
+      Dependencies: {}
+    Info_2:
+      Name: levl2
+      Dependencies:
+        Dependency_0: bguard
+        Dependency_1: bend
+        Dependency_2: dcard
+    Info_3:
+      Name: levl3
+      Dependencies: {}
+    Info_4:
+      Name: bplayer
+      Dependencies: {}
+    Info_5:
+      Name: bguard
+      Dependencies: {}
+    Info_6:
+      Name: bend
+      Dependencies: {}
+    Info_7:
+      Name: bdoor
+      Dependencies: {}
+    Info_8:
+      Name: dcard
+      Dependencies: {}
