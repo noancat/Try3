@@ -14,7 +14,6 @@ public class SaveandLoad : MonoBehaviour
     public List<GameObject> EnemySaves = new List<GameObject>();
     public List<GameObject> PlayerSaves = new List<GameObject>();
     public Timer TimeToDeth;
-    public Doorscript InRoom;
     public AccessCard coinData;
     string json;
     public void Start()
