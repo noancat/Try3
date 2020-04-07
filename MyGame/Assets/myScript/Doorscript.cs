@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class Doorscript : PolimorfScript
+public class DoorScript : PolimorfScript
 {
     protected float waitTime;
     public float startTime;
@@ -10,7 +10,7 @@ public class Doorscript : PolimorfScript
 
     public bool tapedButton;
     public GameObject roomMe, roomNext;
-    public new void Start()
+    public void Start()
     {
         anim = GetComponent<Animator>();
         tapedButton = false;
