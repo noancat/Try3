@@ -75,7 +75,7 @@ public class PatrolMan : MonoBehaviour
         arrowLeftRight.SetActive(false);
         arrowMain.SetActive(false);
         anima.SetInteger("guard_stat", 6);
-
+        rb.bodyType = RigidbodyType2D.Static;
         dethTime += Time.deltaTime;
         if (dethTime >= 4)
         {
@@ -90,10 +90,6 @@ public class PatrolMan : MonoBehaviour
         {
             Deth();
             return;
-        }
-        else
-        {
-            bc2d.enabled = true;
         }
         if (PlayerController.patrolAlarm)
         {
