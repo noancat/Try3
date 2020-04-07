@@ -20,13 +20,19 @@ public class LetMeGo : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        onTrigger = true;
-        Debug.Log("seeu");
+        if (collision.gameObject == GameManager.GetInstance().player.gameObject)
+        {
+            onTrigger = true;
+            Debug.Log("seeu");
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        onTrigger = false;
+        if (collision.gameObject == GameManager.GetInstance().player.gameObject)
+        {
+            onTrigger = false;
+        }
     }
     // Update is called once per frame
     void Update()
