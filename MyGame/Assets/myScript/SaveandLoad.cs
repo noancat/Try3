@@ -21,7 +21,7 @@ public class SaveandLoad : MonoBehaviour
         file = "C:/Users/игорь/22227/save.xml";
         //TimeToDeth = GetComponent<Timer>();
     }
-    public void Savegame()
+    public void SaveGameDate()
     {
         XmlSerializer xml = new XmlSerializer((typeof(Save)));
         Save save = new Save();
@@ -47,7 +47,7 @@ public class SaveandLoad : MonoBehaviour
         }
         ///print(json);
     }
-    public void Loadgame()
+    public void LoadGameDate()
     {
 
         XmlSerializer xml = new XmlSerializer((typeof(Save)));
