@@ -987,8 +987,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30819663e39c66947ae3e146324c563b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letme: 0
-  letmegofrom: {fileID: 0}
+  letMe: 0
+  letMeGoFrom: {fileID: 0}
 --- !u!95 &243318715
 Animator:
   serializedVersion: 3
@@ -1397,8 +1397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30819663e39c66947ae3e146324c563b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letme: 0
-  letmegofrom: {fileID: 0}
+  letMe: 0
+  letMeGoFrom: {fileID: 0}
 --- !u!61 &302948167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11036,15 +11036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls: []
-  - eventID: 3
-    callback:
-      m_PersistentCalls:
-        m_Calls: []
+  m_Delegates: []
 --- !u!1 &1475428947623130607
 GameObject:
   m_ObjectHideFlags: 0
@@ -12189,7 +12181,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1475428947698995218}
-          m_MethodName: Right
+          m_MethodName: MoveRight
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -12723,7 +12715,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1475428947698995218}
-          m_MethodName: Left
+          m_MethodName: MoveLeft
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
