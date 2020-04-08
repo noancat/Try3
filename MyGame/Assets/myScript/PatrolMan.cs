@@ -55,7 +55,7 @@ public class PatrolMan : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Player" && !PlayerController.isDead)
+        if (collision.gameObject == GameManager.GetInstance().player.gameObject && !PlayerController.isDead)
         {
             isDead = true;
             PlayerController.spotted = false;
@@ -73,7 +73,7 @@ public class PatrolMan : MonoBehaviour
         arrowLeftRight.SetActive(false);
         arrowMain.SetActive(false);
         anima.SetInteger("guard_stat", 6);
-
+        rb.bodyType = RigidbodyType2D.Static;
         dethTime += Time.deltaTime;
         if (dethTime >= 4)
         {
@@ -88,10 +88,6 @@ public class PatrolMan : MonoBehaviour
         {
             Deth();
             return;
-        }
-        else
-        {
-            bc2d.enabled = true;
         }
         if (PlayerController.patrolAlarm)
         {
